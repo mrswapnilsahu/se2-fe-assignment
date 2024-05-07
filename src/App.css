@@ -1,0 +1,31 @@
+.search-input {
+  width: 30%;
+  padding: 8px;
+  font-size: medium;
+  border-radius: 8px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-top: 8px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.highlighted {
+  background-color: antiquewhite;
+}
+
+.user-id {
+  font-size: 24px;
+  font-weight: bold;
+}
